@@ -125,9 +125,14 @@ img,video, picture, iframe{
         flex-wrap: wrap;
     }
 
-    header,nav, section, article, aside, footer{
+    header,nav, aside, footer{
         flex-basis: 100%;
         max-width: 100%;
+    }
+    
+    section, article{
+        flex-basis: 50%;
+        max-width: 50%;
     }
     
    
